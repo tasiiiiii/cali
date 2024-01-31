@@ -98,26 +98,13 @@ async function LastVisitorInfo() {
 }
 
 export async function Footer() {
-  // const {
-  //   rows: [count],
-  // } = await db.execute(
-  //   sql`SELECT 
-  //   (SELECT COUNT(*) FROM subscribers WHERE subscribed_at IS NOT NULL) as subscribers`
-  // )
-
   return (
     <footer className="mt-32">
       <Container.Outer>
         <div className="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
           <Container.Inner>
             <div className="mx-auto mb-8 max-w-md">
-              <Newsletter
-                // subCount={
-                //   typeof count !== 'undefined' && 'subscribers' in count
-                //     ? count.subscribers
-                //     : undefined
-                // }
-              />
+              <Newsletter/>
             </div>
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
