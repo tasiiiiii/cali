@@ -1,4 +1,4 @@
-import { sql } from 'drizzle-orm'
+// import { sql } from 'drizzle-orm'
 import Link from 'next/link'
 import React from 'react'
 
@@ -7,7 +7,7 @@ import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { Container } from '~/components/ui/Container'
 import { kvKeys } from '~/config/kv'
 import { navigationItems } from '~/config/nav'
-import { db } from '~/db'
+// import { db } from '~/db'
 import { env } from '~/env.mjs'
 import { prettifyNumber } from '~/lib/math'
 import { redis } from '~/lib/redis'
@@ -97,7 +97,7 @@ async function LastVisitorInfo() {
   )
 }
 
-export async function Footer() {
+export function Footer() {
   return (
     <footer className="mt-32">
       <Container.Outer>
