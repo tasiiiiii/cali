@@ -99,7 +99,7 @@ export const getBlogPost = (slug: string) =>
 
 export const getSettingsQuery = () =>
   groq`
-  *[_type == "settings"][0] {
+  *[_type == "settings"] {
     "projects": projects[]->{
       _id,
       name,

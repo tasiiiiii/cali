@@ -3,7 +3,7 @@ import { getSettings } from '~/sanity/queries'
 
 export async function Projects() {
   const projects = (await getSettings()).projects || []
-
+  console.log(projects,565656)
   return (
     <ul
       role="list"
