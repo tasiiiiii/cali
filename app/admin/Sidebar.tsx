@@ -10,7 +10,7 @@ import {
   HomeIcon,
   NewCommentIcon,
   SubscriberIcon,
-  TiltedSendIcon,
+  // TiltedSendIcon,
 } from '~/assets'
 
 import logo from './../apple-icon.png'

@@ -2,26 +2,26 @@ import {
   Card,
   Grid,
   Metric,
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeaderCell,
-  TableRow,
+  // Table,
+  // TableBody,
+  // TableCell,
+  // TableHead,
+  // TableHeaderCell,
+  // TableRow,
   Text,
   Title,
 } from '@tremor/react'
-import { desc, sql } from 'drizzle-orm'
-import Link from 'next/link'
+// import { desc, sql } from 'drizzle-orm'
+// import Link from 'next/link'
 import React from 'react'
 
-import { db } from '~/db'
-import { comments } from '~/db/schema'
-import { url } from '~/lib'
-import { truncate } from '~/lib/string'
-import { clientFetch } from '~/sanity/lib/client'
+// import { db } from '~/db'
+// import { comments } from '~/db/schema'
+// import { url } from '~/lib'
+// import { truncate } from '~/lib/string'
+// import { clientFetch } from '~/sanity/lib/client'
 
-export default async function AdminCommentsPage() {
+export default function AdminCommentsPage() {
   // const {
   //   rows: [commentsCount],
   // } = await db.execute<{ today_count: number }>(

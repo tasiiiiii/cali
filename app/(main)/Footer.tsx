@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 
 import { CursorClickIcon, UsersIcon } from '~/assets'
-import { PeekabooLink } from '~/components/links/PeekabooLink'
+// import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { Container } from '~/components/ui/Container'
 import { kvKeys } from '~/config/kv'
 import { navigationItems } from '~/config/nav'
@@ -12,7 +12,7 @@ import { env } from '~/env.mjs'
 import { prettifyNumber } from '~/lib/math'
 import { redis } from '~/lib/redis'
 
-import { Newsletter } from './Newsletter'
+// import { Newsletter } from './Newsletter'
 
 function NavLink({
   href,

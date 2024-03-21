@@ -1,10 +1,10 @@
 import { Card, Grid, Metric, Text, Title } from '@tremor/react'
-import { sql } from 'drizzle-orm'
+// import { sql } from 'drizzle-orm'
 import React from 'react'
 
-import { db } from '~/db'
+// import { db } from '~/db'
 
-export default async function AdminPage() {
+export default function AdminPage() {
   // const {
   //   rows: [count],
   // } = await db.execute<{ today_count: number | 1 }>(

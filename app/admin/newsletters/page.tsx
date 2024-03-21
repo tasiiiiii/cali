@@ -1,21 +1,21 @@
 import {
   Card,
   Table,
-  TableBody,
-  TableCell,
+  // TableBody,
+  // TableCell,
   TableHead,
   TableHeaderCell,
   TableRow,
   Title,
 } from '@tremor/react'
-import { parseDateTime } from '@zolplay/utils'
-import { desc, sql } from 'drizzle-orm'
+// import { parseDateTime } from '@zolplay/utils'
+// import { desc, sql } from 'drizzle-orm'
 
 import { Button } from '~/components/ui/Button'
-import { db } from '~/db'
-import { newsletters } from '~/db/schema'
+// import { db } from '~/db'
+// import { newsletters } from '~/db/schema'
 
-export default async function AdminNewslettersPage() {
+export default function AdminNewslettersPage() {
   // const {
   //   rows: [count],
   // } = await db.execute<{ today_count: number }>(
