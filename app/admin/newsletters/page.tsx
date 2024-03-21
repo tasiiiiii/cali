@@ -1,4 +1,6 @@
+import { Button } from '~/components/ui/Button'
 import {
+  Title,
   Card,
   Table,
   // TableBody,
@@ -6,12 +8,10 @@ import {
   TableHead,
   TableHeaderCell,
   TableRow,
-  Title,
 } from '@tremor/react'
 // import { parseDateTime } from '@zolplay/utils'
 // import { desc, sql } from 'drizzle-orm'
 
-import { Button } from '~/components/ui/Button'
 // import { db } from '~/db'
 // import { newsletters } from '~/db/schema'
 
@@ -31,7 +31,7 @@ export default function AdminNewslettersPage() {
   return (
     <>
       <Title className="mb-3">
-        Total newsletters{' '}
+        {/* Total newsletters{' '} */}
         {/* {typeof count === 'object' && 'total' in count && (
           <span>{count.total}</span>
         )} */}
