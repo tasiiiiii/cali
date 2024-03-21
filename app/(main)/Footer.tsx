@@ -108,7 +108,11 @@ export function Footer() {
             </div>
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
+<<<<<<< HEAD
                 &copy; {new Date().getFullYear()} 之林&Tasi
+=======
+                &copy; {new Date().getFullYear()}  之林&Tasi
+>>>>>>> 084d19670f00b88b8d6482da8d8989780c64bd8e
               </p>
               <Links />
             </div>

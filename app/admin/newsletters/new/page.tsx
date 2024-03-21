@@ -19,7 +19,11 @@ const CreateNewsletterSchema = z.object({
   subject: z.string().nonempty(),
   body: z.string().nonempty(),
 })
+<<<<<<< HEAD
 export default async function CreateNewsletterPage() {
+=======
+export default  function CreateNewsletterPage() {
+>>>>>>> 084d19670f00b88b8d6482da8d8989780c64bd8e
   async function addNewsletter(formData: FormData) {
     'use server'
 
@@ -32,7 +36,9 @@ export default async function CreateNewsletterPage() {
         email: subscribers.email,
       })
       .from(subscribers)
-      .where(lte(subscribers.subscribedAt, new Date()))
+      .where(lte(subscribers.subscribedAt, new Date())).then( res =>{
+        return res
+      })
     const subscriberEmails = new Set([
       ...subs
         .filter((sub) => typeof sub.email === 'string' && sub.email.length > 0)
@@ -59,7 +65,7 @@ export default async function CreateNewsletterPage() {
       })?.toDate(),
     })
 
-    redirect('/admin/newsletters')
+     redirect('/admin/newsletters')
   }
 
   return (
