@@ -19,11 +19,7 @@ const CreateNewsletterSchema = z.object({
   subject: z.string().nonempty(),
   body: z.string().nonempty(),
 })
-<<<<<<< HEAD
-export default async function CreateNewsletterPage() {
-=======
-export default  function CreateNewsletterPage() {
->>>>>>> 084d19670f00b88b8d6482da8d8989780c64bd8e
+export default function CreateNewsletterPage() {
   async function addNewsletter(formData: FormData) {
     'use server'
 
