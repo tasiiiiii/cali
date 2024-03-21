@@ -16,26 +16,27 @@ import { db } from '~/db'
 import { subscribers } from '~/db/schema'
 
 export default async function AdminSubscribersPage() {
-  const {
-    rows: [count],
-  } = await db.execute<{ today_count: number }>(
-    sql`SELECT 
-  (SELECT COUNT(*) FROM subscribers WHERE subscribed_at IS NOT NULL) as total`
-  )
-  const subs = await db
-    .select()
-    .from(subscribers)
-    .where(lte(subscribers.subscribedAt, new Date()))
-    .limit(30)
-    .orderBy(desc(subscribers.subscribedAt))
+  // const {
+  //   rows: [count],
+  // } = await db.execute<{ today_count: number }>(
+  //   sql`SELECT 
+  // (SELECT COUNT(*) FROM subscribers WHERE subscribed_at IS NOT NULL) as total`
+  // )
+  // const subs = await db
+  //   .select()
+  //   .from(subscribers)
+  //   .where(lte(subscribers.subscribedAt, new Date()))
+  //   .limit(30)
+  //   .orderBy(desc(subscribers.subscribedAt))
 
   return (
     <>
       <Title>
         总订阅{' '}
-        {typeof count === 'object' && 'total' in count && (
+        {/* {typeof count === 'object' && 'total' in count && (
           <span>{count.total}</span>
-        )}
+        )} */}
+         <span>{Math.round(Math.random())*5}</span>
       </Title>
 
       <Card className="mt-6">
@@ -46,7 +47,7 @@ export default async function AdminSubscribersPage() {
               <TableHeaderCell>订阅时间</TableHeaderCell>
             </TableRow>
           </TableHead>
-          <TableBody>
+          {/* <TableBody>
             {subs.map((sub) => (
               <TableRow key={sub.id}>
                 <TableCell>{sub.email}</TableCell>
@@ -57,7 +58,7 @@ export default async function AdminSubscribersPage() {
                 </TableCell>
               </TableRow>
             ))}
-          </TableBody>
+          </TableBody> */}
         </Table>
       </Card>
     </>

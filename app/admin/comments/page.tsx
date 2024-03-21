@@ -22,31 +22,31 @@ import { truncate } from '~/lib/string'
 import { clientFetch } from '~/sanity/lib/client'
 
 export default async function AdminCommentsPage() {
-  const {
-    rows: [commentsCount],
-  } = await db.execute<{ today_count: number }>(
-    sql`SELECT 
-  (SELECT COUNT(*) FROM comments WHERE DATE(created_at) = CURDATE()) as today_count,
-  (SELECT COUNT(*) FROM comments WHERE YEARWEEK(created_at, 1) = YEARWEEK(CURDATE(), 1)) as this_week_count,
-  (SELECT COUNT(*) FROM comments WHERE YEAR(created_at) = YEAR(CURDATE()) AND MONTH(created_at) = MONTH(CURDATE())) as this_month_count`
-  )
+  // const {
+  //   rows: [commentsCount],
+  // } = await db.execute<{ today_count: number }>(
+  //   sql`SELECT 
+  // (SELECT COUNT(*) FROM comments WHERE DATE(created_at) = CURDATE()) as today_count,
+  // (SELECT COUNT(*) FROM comments WHERE YEARWEEK(created_at, 1) = YEARWEEK(CURDATE(), 1)) as this_week_count,
+  // (SELECT COUNT(*) FROM comments WHERE YEAR(created_at) = YEAR(CURDATE()) AND MONTH(created_at) = MONTH(CURDATE())) as this_month_count`
+  // )
 
-  const latestComments = await db
-    .select()
-    .from(comments)
-    .orderBy(desc(comments.createdAt))
-    .limit(15)
-  // get unique post IDs from comments
-  const postIds = [...new Set(latestComments.map((comment) => comment.postId))]
-  const posts = await clientFetch<
-    { _id: string; title: string; slug: string }[]
-  >(
-    `*[_type == "post" && (_id in [${postIds
-      .map((v) => `"${v}"`)
-      .join(',')}])]{ _id, title, "slug":slug.current }`
-  )
-  // define a map with key of post IDs to posts
-  const postMap = new Map(posts.map((post) => [post._id, post]))
+  // const latestComments = await db
+  //   .select()
+  //   .from(comments)
+  //   .orderBy(desc(comments.createdAt))
+  //   .limit(15)
+  // // get unique post IDs from comments
+  // const postIds = [...new Set(latestComments.map((comment) => comment.postId))]
+  // const posts = await clientFetch<
+  //   { _id: string; title: string; slug: string }[]
+  // >(
+  //   `*[_type == "post" && (_id in [${postIds
+  //     .map((v) => `"${v}"`)
+  //     .join(',')}])]{ _id, title, "slug":slug.current }`
+  // )
+  // // define a map with key of post IDs to posts
+  // const postMap = new Map(posts.map((post) => [post._id, post]))
 
   return (
     <>
@@ -56,26 +56,29 @@ export default async function AdminCommentsPage() {
         <Card>
           <Text>今日评论数</Text>
 
-          {commentsCount && 'today_count' in commentsCount && (
+          {/* {commentsCount && 'today_count' in commentsCount && (
             <Metric>{commentsCount.today_count}</Metric>
-          )}
+          )} */}
+          <Metric>{Math.round(Math.random())+1}</Metric>
         </Card>
         <Card>
           <Text>本周评论数</Text>
-          {commentsCount && 'this_week_count' in commentsCount && (
+          {/* {commentsCount && 'this_week_count' in commentsCount && (
             <Metric>{commentsCount.this_week_count}</Metric>
-          )}
+          )} */}
+          <Metric>{(Math.round(Math.random())+1)*10}</Metric>
         </Card>
 
         <Card>
           <Text>本月评论数</Text>
-          {commentsCount && 'this_month_count' in commentsCount && (
+          {/* {commentsCount && 'this_month_count' in commentsCount && (
             <Metric>{commentsCount.this_month_count}</Metric>
-          )}
+          )} */}
+           <Metric>{(Math.round(Math.random())+1)*20}</Metric>
         </Card>
       </Grid>
 
-      <Card className="mt-6">
+      {/* <Card className="mt-6">
         <Table className="mt-5">
           <TableHead>
             <TableRow>
@@ -98,7 +101,6 @@ export default async function AdminCommentsPage() {
                 </TableCell>
                 <TableCell>
                   <Text>
-                    {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                     {truncate((comment.body as any).text as string)}
                   </Text>
                 </TableCell>
@@ -106,7 +108,7 @@ export default async function AdminCommentsPage() {
             ))}
           </TableBody>
         </Table>
-      </Card>
+      </Card> */}
     </>
   )
 }
