@@ -1,0 +1,1145 @@
+[33mcommit 084d19670f00b88b8d6482da8d8989780c64bd8e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: admin <442953895@qq.com>
+Date:   Thu Mar 21 15:47:01 2024 +0800
+
+    修改仪表盘
+
+[33mcommit 1eaf8b20275d8880242bf96df2027df91e1ca481[m
+Author: admin <442953895@qq.com>
+Date:   Thu Mar 21 15:32:14 2024 +0800
+
+    修改仪表盘
+
+[33mcommit 61b4bbadc5eafd4d0e496de58ee1bb55381b75dd[m
+Author: admin <442953895@qq.com>
+Date:   Thu Mar 21 14:44:33 2024 +0800
+
+    修改仪表盘
+
+[33mcommit ad2a8fa52e71b4a9fc66f80a3f276e50898dc064[m
+Author: admin <442953895@qq.com>
+Date:   Fri Feb 23 12:29:41 2024 +0800
+
+    修改时滚动
+
+[33mcommit 5193854472ff63dcb903d3d4ddb42e7a9c27e0f2[m
+Author: admin <442953895@qq.com>
+Date:   Thu Feb 22 14:02:22 2024 +0800
+
+    修改代码
+
+[33mcommit 1f7e0083e62783af569ec7e82235b4e4d2cc4242[m
+Author: admin <442953895@qq.com>
+Date:   Thu Feb 22 13:56:46 2024 +0800
+
+    修改代码
+
+[33mcommit 9df1ecca053e47b7182d3cb6a6712eda33248afa[m
+Author: admin <442953895@qq.com>
+Date:   Thu Feb 22 13:47:10 2024 +0800
+
+    修改代码
+
+[33mcommit f7dccb17c070858b6fe1c76df7a4bcc3264c6e90[m
+Author: admin <442953895@qq.com>
+Date:   Thu Feb 22 12:44:42 2024 +0800
+
+    修改代码
+
+[33mcommit 36286e4530eae056bb83e41cc70c6744d9fb57e1[m
+Author: admin <442953895@qq.com>
+Date:   Wed Jan 31 16:19:54 2024 +0800
+
+    修改foot
+
+[33mcommit 34010801c97355b36740335b2e0728430be32dbe[m
+Author: admin <442953895@qq.com>
+Date:   Wed Jan 31 15:57:28 2024 +0800
+
+    修改数量
+
+[33mcommit a8ef0d7c8021148e20cbf382a02705d70748399b[m
+Author: admin <442953895@qq.com>
+Date:   Wed Jan 31 14:36:56 2024 +0800
+
+    ”修改密钥“
+
+[33mcommit 278ce97e6c65bd00f95ea38564f778189818bed3[m
+Merge: 40fd867 2182620
+Author: Cali Castle <hi@cali.so>
+Date:   Sun Dec 24 16:11:38 2023 +0800
+
+    fix: 修复 postIdKeys 为空时在生产环境下部署带来的问题 (#38)
+
+[33mcommit 2182620f8147294d9eb01cca02c210890cec8697[m
+Author: cczywyc <274230928@qq.com>
+Date:   Sun Dec 24 14:38:02 2023 +0800
+
+    fix: 修复 postIdKeys 为空时在生产环境下部署带来的问题
+
+[33mcommit 40fd867d3266718102165afc3a39a8873dfd1a93[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sun Dec 24 01:52:43 2023 +0800
+
+    fix: zolplay link
+
+[33mcommit 6a1627d28ce1dc6175910836f5bd53b6aa9d2637[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sun Dec 24 01:33:46 2023 +0800
+
+    feat: update 𝕏 and zolplay favicons
+
+[33mcommit d6f474c7daa2f70314481c1b2f594af1ce690bff[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sun Dec 24 01:16:13 2023 +0800
+
+    feat: update opengraph images
+
+[33mcommit fee4e0e8893b83772a0630e1e21aef137769be9e[m
+Merge: c5e2648 b434712
+Author: Cali Castle <hi@cali.so>
+Date:   Tue Dec 19 14:08:49 2023 +0800
+
+    fix: 修复刚部署时数据为空页面崩溃的bug (#35)
+
+[33mcommit b434712fb67e8e86489f4e5cb06a2d5b71710918[m
+Author: liyuhang <liyuhang.rich@bytedance.com>
+Date:   Tue Dec 19 11:56:05 2023 +0800
+
+    fix: 修复刚部署时数据为空页面崩溃的bug
+
+[33mcommit c5e26483413b05d10b742306062dfddbd2cf073f[m
+Merge: 55f74e1 cbc621c
+Author: Cali Castle <hi@cali.so>
+Date:   Fri Nov 10 00:01:45 2023 +0800
+
+    fix: add collisionBoundary for HoverCard Content to avoid flicker problem (#33)
+
+[33mcommit cbc621c835c453dbea0212d6a894b7d00d71b928[m
+Author: Chuck <tengchenc@gmail.com>
+Date:   Thu Nov 9 23:00:58 2023 +0800
+
+    fix: used incorrect prop collisionBoundary -> collisionPadding
+
+[33mcommit 25466026bc8d28f51d7ceb5652cdc13b1b19d817[m
+Author: Chuck <tengchenc@gmail.com>
+Date:   Thu Nov 9 20:30:31 2023 +0800
+
+    fix: Update components/links/PeekabooLink.tsx
+    
+    Co-authored-by: Cali Castle <hi@cali.so>
+
+[33mcommit 07d4cdca5d6d058711c3ac0f9aa0bc32b686daaf[m
+Author: Chuck <tengchenc@gmail.com>
+Date:   Thu Nov 9 18:45:55 2023 +0800
+
+    fix: add collisionBoundary for HoverCard Content to avoid flicker problem
+    
+    fix: #32
+
+[33mcommit 55f74e1ac58ecbcbce7278121f4869c9ccd4f6af[m
+Merge: fb31474 daffff9
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Oct 26 18:07:02 2023 +0800
+
+    fix: fix the issue where pop-up messages are being covered by the avatar (#31)
+
+[33mcommit daffff9b367418113ef1d893412c2ceca460745e[m
+Author: hamster1963 <1410514192@qq.com>
+Date:   Thu Oct 26 18:00:36 2023 +0800
+
+    fix: fix the issue where pop-up messages are being covered by the avatar
+
+[33mcommit fb314745ab5153d56d24a77efaf471fc18fc9e1e[m
+Merge: 926023d b4968db
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Oct 21 20:26:39 2023 +0800
+
+    fix:更新ThemeSwitcher.tsx , fix a wrong ["](“->") (#30)
+
+[33mcommit b4968dbc2981e28eeb5c11302f1499cc4f50e86b[m
+Author: ruaharico <58129639+ruaharico@users.noreply.github.com>
+Date:   Sat Oct 21 13:24:18 2023 +0800
+
+    Update ThemeSwitcher.tsx , fix a wrong ["](“->")
+
+[33mcommit 926023dd6fe863edc89d1ab6075dc2e396a710bb[m
+Merge: 01b9d8e 7a87771
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Oct 21 12:05:07 2023 +0800
+
+    fix: 修复首页 近期文章 未正确获取完全的问题 (#29)
+
+[33mcommit 7a87771ed351a3e80b039d06b257eeaa0c493bfa[m
+Author: hamster1963 <1410514192@qq.com>
+Date:   Sat Oct 21 11:53:17 2023 +0800
+
+    fix: 修复首页 近期文章 未正确获取完全的问题
+
+[33mcommit 01b9d8e665088b5c5c5b1832fcdd4f4a530ecc33[m
+Merge: 7dacf0b 9501b37
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Oct 19 05:20:13 2023 -0500
+
+    fix: fix label won't be shown when no theme preference (#27)
+
+[33mcommit 9501b378388c36fa384dda168a942de511fe719e[m
+Author: Kuiliang Zhang <38809606+Crayon-ShinChan@users.noreply.github.com>
+Date:   Sat Oct 7 18:18:36 2023 -0700
+
+    fix: fix label won't be shown when no theme preference
+
+[33mcommit 7dacf0bd4b75fbc12ab6f545d6a9aa8621c250fa[m
+Merge: a37e35a e08e01b
+Author: Cali Castle <hi@cali.so>
+Date:   Tue Jul 25 21:29:43 2023 +0800
+
+    Fix `updatedAt` auto update (#19)
+
+[33mcommit e08e01b182c9d4c1a823ed3ee1fed372c2e81e2b[m
+Author: jsun969 <i@jsun.lol>
+Date:   Tue Jul 25 20:03:40 2023 +0800
+
+    fix(db): `updatedAt` auto update
+
+[33mcommit a37e35adc45add8ac21e3715aaa36eee88577eba[m
+Author: Cali <hi@cali.so>
+Date:   Fri Jul 21 14:12:02 2023 +0800
+
+    fix: improve auth modal backdrop color
+
+[33mcommit 0d27b98d88ba3bdc80dee45f2292d23754262c78[m
+Author: Cali <hi@cali.so>
+Date:   Fri Jul 21 14:08:24 2023 +0800
+
+    fix: blog post card categories
+
+[33mcommit 4d3586fdc853adcac49b6d091da24ffd2c50047f[m
+Author: Cali <hi@cali.so>
+Date:   Mon Jul 17 13:48:13 2023 +0800
+
+    fix: add break all on comment messages
+
+[33mcommit 824441c901db48f7908e1bae5cb1a2eeb728b3fe[m
+Author: Cali <hi@cali.so>
+Date:   Sat Jul 15 17:24:56 2023 +0800
+
+    fix: remove balancer on post descriptions
+
+[33mcommit ef59f1547f3c4bb382728fe7865d9fa5de838dac[m
+Author: Cali <hi@cali.so>
+Date:   Sat Jul 15 17:24:02 2023 +0800
+
+    chore: update README
+
+[33mcommit 026a21e4aec933262d8962b73d493df0922d984d[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jul 15 13:10:21 2023 +0800
+
+    chore: optimize preview config
+
+[33mcommit 36817941be5d6cc247eb87af2e71f609a3e710c4[m
+Author: Cali <hi@cali.so>
+Date:   Tue Jul 4 12:32:16 2023 +0800
+
+    fix: #10
+
+[33mcommit f0d5c190fb6be139818726da35c2eb1a0d0a1c84[m
+Author: Cali <hi@cali.so>
+Date:   Tue Jul 4 09:46:24 2023 +0800
+
+    fix: parent comment breaks container width
+
+[33mcommit 2a4531e83b3ab4aa3700397aadea16bdc504d892[m
+Author: Cali <hi@cali.so>
+Date:   Wed Jun 28 22:52:15 2023 +0800
+
+    feat: add og image for ama
+
+[33mcommit 1945ea293cce8874297f26dda204075839c49b7c[m
+Author: Cali <hi@cali.so>
+Date:   Wed Jun 28 22:46:00 2023 +0800
+
+    feat: add ama page
+
+[33mcommit 6632e3b7f2ab2b513fe83a488ba05a2ca63daff3[m
+Author: Cali <hi@cali.so>
+Date:   Sat Jun 24 11:54:57 2023 +0800
+
+    feat: add label for images
+
+[33mcommit d3c545b2262be6e44dbd570d8c653e513a021bac[m
+Author: Cali <hi@cali.so>
+Date:   Sat Jun 24 11:04:33 2023 +0800
+
+    chore: rm package
+
+[33mcommit 02325f4aced02b0b1bef83757ae1aafa980ccbfd[m
+Author: Cali <hi@cali.so>
+Date:   Sat Jun 24 11:02:56 2023 +0800
+
+    feat: add lightbox support for images
+
+[33mcommit a82249b28d0d909f05bcfe6b2d77be83151529f9[m
+Author: Cali <hi@cali.so>
+Date:   Sat Jun 24 10:02:12 2023 +0800
+
+    chore: bump deps
+
+[33mcommit a0ac75c12e8cce9df0a3e5e69be86e6de4e6ed23[m
+Author: Cali <hi@cali.so>
+Date:   Sat Jun 24 07:42:59 2023 +0800
+
+    remove: Activity temporarily
+
+[33mcommit d9ba5798132bcb3f3bd97951cf1dd7d0545be751[m
+Author: Cali <hi@cali.so>
+Date:   Sat Jun 24 07:42:06 2023 +0800
+
+    fix: date display
+
+[33mcommit 5a2e971bef97169e0781032287c875f34f550897[m
+Author: Cali <hi@cali.so>
+Date:   Sun Jun 18 12:18:53 2023 +0800
+
+    fix: optimize toc hover color states
+
+[33mcommit d16d1b7c16981357d8be88b5f758858b66f40a2d[m
+Author: Cali <hi@cali.so>
+Date:   Sun Jun 18 12:08:11 2023 +0800
+
+    feat: add scroll sensitive toc highlights
+
+[33mcommit c11f22784b0deace8768a295a1c9c3233f89189f[m
+Author: Cali <hi@cali.so>
+Date:   Sat Jun 17 22:29:53 2023 +0800
+
+    fix: related posts layout
+
+[33mcommit 5342b843768ea17191de1b1841b07bed7dfc38bf[m
+Author: Cali <hi@cali.so>
+Date:   Sat Jun 17 22:18:14 2023 +0800
+
+    fix: optimize anchor link scroll behaviors
+
+[33mcommit 5bca3e8d24cd7515357412eda31f88f4412a4351[m
+Author: Cali <hi@cali.so>
+Date:   Sat Jun 17 21:17:30 2023 +0800
+
+    fix: toc layout in mobile
+
+[33mcommit bf9c81d54120f52408a15fc310dc849bb1b5f9ab[m
+Author: Cali <hi@cali.so>
+Date:   Sat Jun 17 16:24:24 2023 +0800
+
+    feat: add table of contents and adjust blog layout
+
+[33mcommit fb4af62674845cd0a07ba29e4988590a97ba4a2f[m
+Author: Cali <hi@cali.so>
+Date:   Sat Jun 17 10:50:30 2023 +0800
+
+    feat: add related posts section
+
+[33mcommit 6238044b9fa48a76984517bcd8d26e260ee24445[m
+Author: Cali <hi@cali.so>
+Date:   Sat Jun 17 10:19:41 2023 +0800
+
+    feat: add newsletter signup in footer
+
+[33mcommit 35ee8e0b58be036e2b68b85ee9f62764444986c2[m
+Author: Cali <hi@cali.so>
+Date:   Fri Jun 16 20:40:59 2023 +0800
+
+    fix: post card border radius layer 2
+
+[33mcommit 8b7305de63300feac0d3dcb79555c527dd66a706[m
+Author: Cali <hi@cali.so>
+Date:   Fri Jun 16 20:39:57 2023 +0800
+
+    fix: post card bottom border radius
+
+[33mcommit b88fcc4d721f47c064923a32456189e4287022b6[m
+Author: Cali <hi@cali.so>
+Date:   Fri Jun 16 20:32:23 2023 +0800
+
+    feat: add social strategy icon to current user
+
+[33mcommit d59099b8f9e23e7001d966fb8493cc1c86f8494e[m
+Author: Cali <hi@cali.so>
+Date:   Fri Jun 16 20:04:36 2023 +0800
+
+    fix: input rings
+
+[33mcommit 2b5ee7b5d1b6c8d110cbe297c90bcaec7af164de[m
+Author: Cali <hi@cali.so>
+Date:   Fri Jun 16 19:43:30 2023 +0800
+
+    fix: add public route for newsletters
+
+[33mcommit f90e69365002b32caf0040e0a14d103e5f9ca916[m
+Author: Cali <hi@cali.so>
+Date:   Fri Jun 16 19:03:18 2023 +0800
+
+    fix: newsletter render page metadata
+
+[33mcommit 61537e7e02b42aae8e552694aa2cece436e662ec[m
+Author: Cali <hi@cali.so>
+Date:   Fri Jun 16 18:37:05 2023 +0800
+
+    feat: add newsletters render page
+
+[33mcommit 67a9e4f9570f1578e52d6c4592a14dcf9c6674cf[m
+Merge: 4c2d0e0 16d26de
+Author: Cali Castle <hi@cali.so>
+Date:   Fri Jun 16 18:13:17 2023 +0800
+
+    feat: newsletters (#6)
+
+[33mcommit 16d26de813ab3b8a09d8627e913da575af4f0363[m
+Author: Cali <hi@cali.so>
+Date:   Fri Jun 16 18:09:21 2023 +0800
+
+    feat: finish first draft of newsletter
+
+[33mcommit cf532fbd0be3a3f05f7f72e997c52886d0c6d607[m
+Author: Cali <hi@cali.so>
+Date:   Thu Jun 15 11:51:22 2023 +0800
+
+    feat: impl create newsletter
+
+[33mcommit b6452543f10e7b2a96613f2b152fb0d370a84723[m
+Author: Cali <hi@cali.so>
+Date:   Thu Jun 15 10:45:49 2023 +0800
+
+    fix: improve post card styling
+
+[33mcommit 7a2c193ef0a178f86568471ef455b19801f60ea7[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Jun 15 10:04:10 2023 +0800
+
+    feat: add page skeletons
+
+[33mcommit 9cfeabb28ca40554a3c87435f6cd13d7f57979ae[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Jun 15 00:41:22 2023 +0800
+
+    fix: update BlogPostCard design to be accessible
+
+[33mcommit e9b81be13aec6becef86abe3cd0dd3abc8c6d4d7[m
+Author: Cali <hi@cali.so>
+Date:   Wed Jun 14 23:22:45 2023 +0800
+
+    chore: generate migration
+
+[33mcommit d2333b0ca377a55a291426b5f19f01f411b127e1[m
+Author: Cali <hi@cali.so>
+Date:   Wed Jun 14 17:41:02 2023 +0800
+
+    chore: bump packages
+
+[33mcommit 0f4636ca109632c1e16b2ada097450e4144345e7[m
+Author: Cali Castle <hi@cali.so>
+Date:   Wed Jun 14 15:55:50 2023 +0800
+
+    feat: update post card design
+
+[33mcommit 4c2d0e030afb105e60ebfff09444169c32fa34f4[m
+Author: Cali Castle <hi@cali.so>
+Date:   Tue Jun 13 12:39:45 2023 +0800
+
+    fix: add api wildcard routes to public
+
+[33mcommit 1c39e56bb2e60071eb579ba7305799618fcc88f7[m
+Author: Cali Castle <hi@cali.so>
+Date:   Tue Jun 13 12:36:40 2023 +0800
+
+    chore: update README with Clerk
+
+[33mcommit cb56eb37f0dcb7a6ee660358d01af153407ca6e8[m
+Author: Cali Castle <hi@cali.so>
+Date:   Tue Jun 13 12:36:03 2023 +0800
+
+    fix: public routes
+
+[33mcommit 2123d4a08f3967694229c9078123ca738c7a4563[m
+Author: Cali Castle <hi@cali.so>
+Date:   Tue Jun 13 08:52:29 2023 +0800
+
+    feat: optimize admin dashboard
+
+[33mcommit 81d482602632288270170cbff1ca474c9cd03d1f[m
+Author: Cali Castle <hi@cali.so>
+Date:   Tue Jun 13 05:07:33 2023 +0800
+
+    fix: blog post page error
+
+[33mcommit 53994e850549b7d1c689bbd46fa7200fa0738c96[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon Jun 12 23:57:34 2023 +0800
+
+    fix: update post cards design
+
+[33mcommit 7398cb6fecab9478c4761141624d4c2111b74192[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon Jun 12 21:39:42 2023 +0800
+
+    feat: optimize post cards
+
+[33mcommit c2d514f01ce3c6278da14a1544b20c9aec4842b0[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon Jun 12 17:14:25 2023 +0800
+
+    feat: add a quick admin dashboard
+
+[33mcommit 102550056929bb2fd98d9e3acdfe8713d61c0a0d[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sun Jun 11 21:38:17 2023 +0800
+
+    fix: optimize image brightness in dark mode
+
+[33mcommit f44fc8ac3f261f35917e40a7e1b2611e04650488[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sun Jun 11 10:56:31 2023 +0800
+
+    chore: bump packages
+
+[33mcommit 64196220adfa6a6b694f6b166c9955889d27180d[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jun 10 18:52:14 2023 +0800
+
+    fix: image and code block mobile comments
+
+[33mcommit 2b43236439d95bffef2196c2ab3859a5de70dd7a[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jun 10 18:34:32 2023 +0800
+
+    fix: light mode in mobile comments
+
+[33mcommit 2c422b1e00bbef6c8013d23aca99caaa125e2164[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jun 10 18:33:47 2023 +0800
+
+    fix: optimize comments for mobile
+
+[33mcommit b232b2c6a65e6df5fe9ca336b14fa942f976ff96[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jun 10 17:59:52 2023 +0800
+
+    chore: update env.example and README
+
+[33mcommit 35480940b9145e01608cb1e6065486aaeede162a[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jun 10 17:00:58 2023 +0800
+
+    chore: bump packages
+
+[33mcommit 476ba268dd92eca885a174f7085c76c626e02dfc[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jun 10 16:58:28 2023 +0800
+
+    feat: add open source footer info and fix code block
+
+[33mcommit 574e6c24af44937efd5e1c14e40d8efffa60f673[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jun 10 11:53:05 2023 +0800
+
+    feat: add nextjs favicon
+
+[33mcommit 05fc03a930b36468c883b761a475dc92dee4b982[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri Jun 9 23:49:41 2023 +0800
+
+    feat: add code block
+
+[33mcommit 6983e295b38546c3e3bf61c87e9c9962cdc93688[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri Jun 9 17:55:52 2023 +0800
+
+    feat: optimize guestbook ux
+
+[33mcommit b0edd1a90519ce0a5ac01a204939eaebdd4316d5[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri Jun 9 10:42:29 2023 +0800
+
+    feat: add guestbook og image
+
+[33mcommit 3577c1f0176f521f62e6cabb9c0002adef442f0e[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri Jun 9 10:07:07 2023 +0800
+
+    fix: comment placeholder color in light mode
+
+[33mcommit 7bc2bfef197b33019f1a31be04e8111360044cf4[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri Jun 9 09:03:10 2023 +0800
+
+    fix: skew shape colors in light mode
+
+[33mcommit e6548951c8597b59e011c26c3bbf73d01a6d3c61[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri Jun 9 00:43:47 2023 +0800
+
+    fix: sort guestbook messages
+
+[33mcommit b7891c473d11d1609bd2975944d669eb718d47f6[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri Jun 9 00:27:22 2023 +0800
+
+    fix: optimize parse display name
+
+[33mcommit d0c842ab6745bcb5f2ff0bfa5851f08d6ba655f0[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri Jun 9 00:22:57 2023 +0800
+
+    fix: guestbook input animation
+
+[33mcommit 7ec95c97ba30634ad5553bfe14016c2e981b8405[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri Jun 9 00:20:23 2023 +0800
+
+    fix: multiple comment
+
+[33mcommit 8a87bf7af138b6e6bceb92af5985e7c99419e0f1[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Jun 8 23:58:24 2023 +0800
+
+    fix: SITE_NOTIFICATION_EMAIL_TO
+
+[33mcommit e05acced155f5d2c8bf16b88a15cc18d2dd49d12[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Jun 8 23:18:32 2023 +0800
+
+    fix: guestbook input svg
+
+[33mcommit eb88452c162554689c1e905c826981b35cd9e521[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Jun 8 23:14:51 2023 +0800
+
+    fix: optimize sign in prompts for guestbook
+
+[33mcommit a78b012bf0b9e7ee99689876104d698efa518785[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Jun 8 23:11:45 2023 +0800
+
+    feat: add guestbook
+
+[33mcommit aa75d4d6815fd4c2d2103366c9d5103ae689b879[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Jun 8 11:54:36 2023 +0800
+
+    Update README.md
+
+[33mcommit 0b6cba98147c24120373dc136b922d4b6aa2c772[m
+Author: Cali Castle <hi@cali.so>
+Date:   Tue Jun 6 16:33:17 2023 +0800
+
+    fix: not scrolling problem
+
+[33mcommit bd83941fd8935a8d7b2e8631f811b2b4cb31b15f[m
+Author: Cali Castle <hi@cali.so>
+Date:   Tue Jun 6 16:13:17 2023 +0800
+
+    fix: email incorrect user
+
+[33mcommit 53bca9d7d1dd93fe3fcff1689f28190dc5bffbcc[m
+Author: Cali Castle <hi@cali.so>
+Date:   Tue Jun 6 15:58:52 2023 +0800
+
+    fix: props type in NewReplyComment.tsx
+
+[33mcommit 65d8ce37620e133f6469508cfa5b0c5ee20d2137[m
+Author: Cali Castle <hi@cali.so>
+Date:   Tue Jun 6 15:52:23 2023 +0800
+
+    fix: Commentable event
+
+[33mcommit cbbce94673834200dee2814cadeb93ba3574e1c1[m
+Author: Cali Castle <hi@cali.so>
+Date:   Tue Jun 6 15:47:25 2023 +0800
+
+    fix: route email props error
+
+[33mcommit 8f90a0ff2b28bb593d8a921704afb17abaf0733f[m
+Author: Cali Castle <hi@cali.so>
+Date:   Tue Jun 6 15:43:25 2023 +0800
+
+    fix: route error
+
+[33mcommit 69deff2743ac74de5969c6af9754393ebf48a244[m
+Author: Cali Castle <hi@cali.so>
+Date:   Tue Jun 6 15:39:51 2023 +0800
+
+    feat: implement comment replies
+
+[33mcommit 7332c2944d4a4aa58c0a11e3ecf30c36f97c9d4d[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon Jun 5 22:32:52 2023 +0800
+
+    fix: comment ux
+
+[33mcommit 4195b8902f57cd805027d3221e19db7ec2862100[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon Jun 5 19:27:13 2023 +0800
+
+    fix: optimize blockquote border color in dark
+
+[33mcommit 208c1b44f2a4f4934ff32fff2d633df67661f938[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon Jun 5 19:20:57 2023 +0800
+
+    fix: comment avatar shrinking
+
+[33mcommit bd540b0c51cdc95e9e6ba3e53cfaeb8702677809[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon Jun 5 19:18:40 2023 +0800
+
+    fix: pre block whitespace
+
+[33mcommit 5256ad26548cf20f3ac89d4cef852308ac2e8d05[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon Jun 5 18:03:56 2023 +0800
+
+    fix: add commentable for blockquotes
+
+[33mcommit 01be36cb4a955a1898e30b0da2456f13d31b19ec[m
+Merge: 24e53b8 56bbd78
+Author: Cali Castle <hi@cali.so>
+Date:   Mon Jun 5 17:54:55 2023 +0800
+
+    Add comments + auth (#5)
+
+[33mcommit 56bbd789c812d284b1c6eb74f05187acf48e87b9[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon Jun 5 17:50:48 2023 +0800
+
+    fix: add commentable for rest of blockContent
+
+[33mcommit 1ce74ae8cde8235ff7886c7c07281297f71bc778[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon Jun 5 17:35:01 2023 +0800
+
+    fix: remove edge usage in blocked page
+
+[33mcommit 0002c9c1b1329d93263b572e8b7ea7fe29991edf[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon Jun 5 17:27:52 2023 +0800
+
+    fix: remove edge usage
+
+[33mcommit 81bc63bcb39598f5c0d59d4c0f1fd1fb2c658cfa[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon Jun 5 17:19:21 2023 +0800
+
+    fix: reduce edge size
+
+[33mcommit 91d008152e3114f3663a857b3cd0908107a41082[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon Jun 5 17:03:59 2023 +0800
+
+    feat: add avatar stacks
+
+[33mcommit 922d74b4ca67a332048d5b72ebba0648a4bbfb80[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon Jun 5 16:17:34 2023 +0800
+
+    feat: finish impl of comment display
+
+[33mcommit adc793f0461575812af7823148be7dc640adb603[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon Jun 5 02:09:46 2023 +0800
+
+    feat: implement first draft of comments
+
+[33mcommit 24e53b862c67b6d8a8be89311cc20cdc10bb3cb3[m
+Merge: e098209 a71ace9
+Author: Cali Castle <hi@cali.so>
+Date:   Mon Jun 5 00:01:58 2023 +0800
+
+    fix: publishedAt  field query with  ISO 8601 format (#4)
+
+[33mcommit a71ace92712d5941f7c6cd6a1634cd066fa1e366[m
+Author: Tan DuZhi <tanduzhi@unilake.io>
+Date:   Sun Jun 4 18:17:42 2023 +0800
+
+    fix: publishedAt  field query with  ISO 8601 format
+    
+    Sanity publishedAt is return ISO 8601 format
+
+[33mcommit 0046e86cbd139605aa8e4af2cd5299f61a71b581[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sun Jun 4 15:30:19 2023 +0800
+
+    feat: implement endpoints
+
+[33mcommit 2d5612ad654ce5e61df5318885ddc28066969561[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sun Jun 4 01:03:51 2023 +0800
+
+    chore: optimize clerk in dark mode
+
+[33mcommit 40ce8f62aa338a57e29ac20785a3991a41e32a08[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jun 3 16:41:25 2023 +0800
+
+    feat: add user auth
+
+[33mcommit 4daa674fbee1272fa6146aafd1b48ea2e58c9f40[m
+Merge: 483f5be e098209
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jun 3 14:45:28 2023 +0800
+
+    Merge branch 'main' into feat/comments
+
+[33mcommit e098209ccc1e0db22c3f00f0e08865d105a18a2c[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jun 3 14:45:17 2023 +0800
+
+    fix: newsletter success state y translation
+
+[33mcommit 483f5be15dbcb454b5dede061039be7edf445a86[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jun 3 14:37:58 2023 +0800
+
+    fix: remove supabase
+
+[33mcommit 8b37f152d372245e466e6bc6537b187de0775473[m
+Merge: 0f410a6 d2b72c6
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jun 3 14:15:09 2023 +0800
+
+    Merge branch 'main' into feat/comments
+    
+    # Conflicts:
+    #       .gitignore
+    #       env.mjs
+    #       package.json
+    #       pnpm-lock.yaml
+
+[33mcommit d2b72c6f8e45b88e21a43bafd446c6065d3a9057[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jun 3 11:19:23 2023 +0800
+
+    chore: update icons for schemas
+
+[33mcommit d22a1716d10ba447fb74ac5778e1597ea36ee811[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jun 3 11:02:11 2023 +0800
+
+    chore: remove not-found metadata
+
+[33mcommit 64642746801f72746cf185eac30bfd8e20156b1a[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jun 3 01:35:59 2023 +0800
+
+    feat: update confirm subscription email
+
+[33mcommit c9149bdff0d4a45afe133b7de97f1df3c6294443[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jun 3 01:13:39 2023 +0800
+
+    bump packages
+
+[33mcommit 0ca2f10d1c4408fb5f5413ac419653c74e27e251[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat Jun 3 01:05:42 2023 +0800
+
+    feat: add general 404 page
+
+[33mcommit 74249f9c83400dcab7c96001abf2e7ef199aee5f[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Jun 1 20:48:44 2023 +0800
+
+    feat: modify subscription email template
+
+[33mcommit 15b2b6d3a060b9b87bb13932e1608939be986c6d[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Jun 1 19:07:17 2023 +0800
+
+    chore: update readme
+
+[33mcommit 69206d7528c63800f183b24d1e8dc3ca69e87a3e[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Jun 1 17:34:37 2023 +0800
+
+    fix: disallow duplicate newsletter email
+
+[33mcommit 06b06be192e274f52bd043b14082c6e56eb14f90[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Jun 1 17:16:35 2023 +0800
+
+    chore: set null on token upon confirming
+
+[33mcommit 029377ddb82c09b02744cb64eccc0c4bce3af003[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Jun 1 17:15:30 2023 +0800
+
+    fix: protect newsletter button spamming
+
+[33mcommit ae350e0c64b01b8978c7332963115d52f9821bca[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Jun 1 16:54:49 2023 +0800
+
+    chore: update subscription email
+
+[33mcommit eb92d7d9707f7561c72ec7a6c84d0e97b63f925a[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Jun 1 16:35:05 2023 +0800
+
+    fix: remove unused server action
+
+[33mcommit 9e99377c78e2a85135d68359b41dac411a386210[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Jun 1 16:32:22 2023 +0800
+
+    feat: implement newsletter confirm page
+
+[33mcommit c4ae2ff8270360beae6acbb1553b6b274a8497ba[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Jun 1 14:18:54 2023 +0800
+
+    remove: convertkit
+
+[33mcommit 9740a1eae8e85a461a168336d31143c09da43701[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu Jun 1 13:54:45 2023 +0800
+
+    feat: add react email
+
+[33mcommit 233a492900bc8aee93cabc06cf09af30a6fdfecd[m
+Author: Cali Castle <hi@cali.so>
+Date:   Wed May 31 17:51:31 2023 +0800
+
+    fix: make project links open in new tabs
+
+[33mcommit 0c29334d8915efe09df159264395ce08c6ed7f73[m
+Author: Cali Castle <hi@cali.so>
+Date:   Wed May 31 12:36:54 2023 +0800
+
+    chore: update sitemap
+
+[33mcommit c6943523be6092e7c61581e6bbd3675215f5aa36[m
+Author: Cali Castle <hi@cali.so>
+Date:   Wed May 31 12:34:44 2023 +0800
+
+    feat: add projects page
+
+[33mcommit 0f410a6b798e938c0adc12265c801d2cfecca592[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sun May 28 22:47:33 2023 +0800
+
+    wip
+
+[33mcommit 07943cc61dd92463a8ea1c20e5681e34f3efa027[m
+Merge: 4bcbd11 0e17c5c
+Author: Cali Castle <hi@cali.so>
+Date:   Sun May 28 00:51:30 2023 +0800
+
+    Merge branch 'main' into feat/comments
+
+[33mcommit 0e17c5cf7eed15e75b0b742330df988ef9f0158b[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sun May 28 00:45:09 2023 +0800
+
+    feat: add sitemap
+
+[33mcommit 45d16a8413ec971db31649f71c727d1d8a1a28ca[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat May 27 23:43:02 2023 +0800
+
+    fix: optimize loader ufo color
+
+[33mcommit 3ae4aa4c2788638feb880755c1a20b56eac75d98[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat May 27 23:23:52 2023 +0800
+
+    fix: add loading to blog/[slug] and optimize
+
+[33mcommit 4bcbd11b72c9495d8502c4e3f34ec47308436c08[m
+Merge: bbb9d7f 0e70a1e
+Author: Cali Castle <hi@cali.so>
+Date:   Sat May 27 17:22:16 2023 +0800
+
+    Merge branch 'main' into feat/comments
+    
+    # Conflicts:
+    #       components/PostPortableText.tsx
+
+[33mcommit 0e70a1e26928df2bc96f81368df0e6c7f38eeb49[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat May 27 15:30:07 2023 +0800
+
+    chore: add supabase
+
+[33mcommit 384985443c615780c1a3556976c9f772ad3405cd[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri May 26 23:13:27 2023 +0800
+
+    fix: optimize mobile images
+
+[33mcommit 572b4332e1ee3405c963e2d5722854f9f8322827[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri May 26 20:35:04 2023 +0800
+
+    fix: post views bug
+
+[33mcommit 445da4d75ac1617f622fdf8fa2007cfab1f8e0d9[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri May 26 20:29:54 2023 +0800
+
+    feat: add tweet to block content
+
+[33mcommit 942591fa857004adb7b42d93e2c3d9eaf0da1113[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri May 26 18:51:10 2023 +0800
+
+    chore: bump packages
+
+[33mcommit 5b96800a308fbc15a49883d542f9698cd5c4d1df[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri May 26 14:43:24 2023 +0800
+
+    fix: remove charset in feed
+
+[33mcommit e7d7307133defe0da410cc89672918ec752c9be9[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri May 26 14:37:26 2023 +0800
+
+    fix: replace feed with rss lib
+
+[33mcommit 2c73251417b11d023119ae79dac4371207849856[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri May 26 12:17:36 2023 +0800
+
+    feat: add rss to social links
+
+[33mcommit 3bca1a1a77a8abf7727e869326a685d905e08f3a[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri May 26 12:07:41 2023 +0800
+
+    feat: add rss to feed
+
+[33mcommit e28c2fe0bb71c5b0a2c4a0af0c4d0e85a5bff720[m
+Author: Cali Castle <hi@cali.so>
+Date:   Fri May 26 12:06:04 2023 +0800
+
+    feat: add feed to feed.xml
+
+[33mcommit bbb9d7f98a12878383cb968fb33d309653b67871[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu May 25 23:45:02 2023 +0800
+
+    feat: add interaction for new comment
+
+[33mcommit 78b1fde6c3d528b0eb1a778c00d9b2ae3165e303[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu May 25 21:10:35 2023 +0800
+
+    fix: double slashes in seo
+
+[33mcommit f07c52860225a2faa0a021e84e539a7c3db15bde[m
+Author: Cali Castle <hi@cali.so>
+Date:   Thu May 25 21:06:48 2023 +0800
+
+    feat: add feed.xml as RSS
+
+[33mcommit 6c506d0cef2f02c59dc6f9262b7d383cecc20907[m
+Author: Cali Castle <hi@cali.so>
+Date:   Wed May 24 17:43:29 2023 +0800
+
+    feata: update root og image
+
+[33mcommit 1a30bf128c88b1f2d9fb4ae7918ec68ec6a9f747[m
+Author: Cali Castle <hi@cali.so>
+Date:   Tue May 23 02:52:23 2023 +0800
+
+    fix: activity error
+
+[33mcommit 6323f4d8dd667874523e732b9ca8115966af231a[m
+Author: Cali Castle <hi@cali.so>
+Date:   Tue May 23 02:37:32 2023 +0800
+
+    fix: blog posts views
+
+[33mcommit 3fb8ff0023364f6fd47b01ab95b11988874e7054[m
+Author: Cali Castle <hi@cali.so>
+Date:   Tue May 23 02:29:04 2023 +0800
+
+    fix: date tz
+
+[33mcommit 9a3eb3112317ba9fd3b2a4553e0bd840853d92b1[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon May 22 14:23:06 2023 +0800
+
+    fix: activity image pointer events
+
+[33mcommit 1c9e81c58b4f2f0e237f3004599727fd2b07c48d[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon May 22 11:06:46 2023 +0800
+
+    fix: add blocking control for api routes too
+
+[33mcommit 35d95722e4b97ab83c17aa63ded39a1ed61e0e34[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon May 22 10:38:19 2023 +0800
+
+    fix: disable direct access to /blocked
+
+[33mcommit 2b10d8e45868b670e36b6e73c401304e5eae045e[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon May 22 10:30:41 2023 +0800
+
+    feat: add blocked page and IP blocking
+
+[33mcommit 3c8f14534fa2ec22d2504d051a49c5721a92b536[m
+Author: Cali Castle <hi@cali.so>
+Date:   Mon May 22 00:17:41 2023 +0800
+
+    fix: optimize ratelimit
+
+[33mcommit 50635c7d94f9d7e0299ddc63a6fb190c6c0858c7[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sun May 21 23:55:06 2023 +0800
+
+    fix: add ratelimit to reactions endpoint
+
+[33mcommit 4ac480a9654fcac2aba0ed2c2e9b97283ece5f2e[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sun May 21 22:53:11 2023 +0800
+
+    fix: bump activity interval up to 5s
+
+[33mcommit b58be6d866bc580bd03503634396a5f84c6c27c8[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sun May 21 22:49:46 2023 +0800
+
+    feat: only allow activity on main domain
+
+[33mcommit 44055c40ccb4083ed90a820584d7bab3c35815a1[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sun May 21 21:27:02 2023 +0800
+
+    feat: add activity
+
+[33mcommit d01d2f6c977deac82328ebe4ea0e8409203f686f[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sun May 21 10:27:10 2023 +0800
+
+    fix: optimize reaction texts
+
+[33mcommit 5c5cfe2d67a63ef73907d22068519c0e25558271[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sun May 21 10:26:51 2023 +0800
+
+    feat: update emoji reactions to fluent
+
+[33mcommit 4882579e41902447fd989551fb443cbdf1181248[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat May 20 22:41:13 2023 +0800
+
+    fix: broken link
+
+[33mcommit e46f7e34de8b115d32d7fce1b905b8db53718558[m
+Author: Cali Castle <hi@cali.so>
+Date:   Sat May 20 22:40:46 2023 +0800
+
+    feat: add blog reactions
