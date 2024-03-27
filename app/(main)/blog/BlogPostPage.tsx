@@ -166,7 +166,7 @@ export function BlogPostPage({
 
                 <span className="inline-flex items-center space-x-1.5">
                   <HourglassIcon />
-                  <span>{post.readingTime.toFixed(0)}分钟阅读</span>
+                  <span>{post.readingTime?post.readingTime.toFixed(0):0}分钟阅读</span>
                 </span>
               </motion.div>
             </header>
