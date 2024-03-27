@@ -44,7 +44,7 @@ export default function CreateNewsletterPage() {
     await resend.sendEmail({
       subject: data.subject,
       from: emailConfig.from,
-      to: 'hi@cali.so',
+      to: 'hi@cali-ochre.vercel.app',
       reply_to: emailConfig.from,
       bcc: Array.from(subscriberEmails),
       react: NewslettersTemplate({
