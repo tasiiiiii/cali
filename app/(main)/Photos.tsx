@@ -4,10 +4,10 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import React from 'react'
 
-import image5 from '~/assets/highlights/highlight-cali.jpeg'
-import image1 from '~/assets/highlights/highlight-cat.jpeg'
+import image5 from '~/assets/highlights/highlight-cali.jpg'
+import image1 from '~/assets/highlights/highlight-cat.jpg'
 import image3 from '~/assets/highlights/highlight-controller.jpg'
-import image6 from '~/assets/highlights/highlight-push.png'
+import image6 from '~/assets/highlights/highlight-push.jpg'
 import image2 from '~/assets/highlights/highlight-workshop.jpg'
 import image4 from '~/assets/highlights/highlight-zolplay.jpg'
 
